@@ -10,7 +10,7 @@ connect TX pin of GPS to RX pin (1) of Pico
 
 1. [Install Thonny](https://thonny.org)
 2. Plug in your Pico in BOOTSEL mode
-3. Install MicroPython
+3. Flash Pico with [RPI_PICO_W-20241129-v1.24.1.uf2](RPI_PICO_W-20241129-v1.24.1.uf2)
 3. Select COM port
 4. Paste in the code below which will read and display the raw UART data coming from the GPS module
 
@@ -66,6 +66,8 @@ while True:
 
 
 ## Integrate with Google Earth
+
+1. [Install pip](https://bootstrap.pypa.io/pip/pip.pyz)
 
 ```
 from machine import Pin, UART
